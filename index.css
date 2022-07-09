@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    /* background-color: #333; */
+    background-color: #D7D7D7;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+header {
+    background-image: url('./assets/clouds-1838410.jpg');
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.logo a {
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 200;
+    color: #122428;
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-bar li {
+    margin: 0 12px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #445555;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 8px 0;
+}
+
+.nav-menu li:hover > a {
+    font-weight: 500;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #445555;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px 36px;
+    padding-bottom: 76px;
+    height: 100hv;
+}
+
+.hero-text {
+    font-size: 72px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #122428;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #122428;
+}
